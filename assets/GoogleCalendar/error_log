@@ -1,0 +1,38 @@
+[27-Sep-2018 08:19:48 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php on line 27
+[27-Sep-2018 08:19:48 UTC] PHP Fatal error:  Uncaught Google_AuthException: Could not json decode the token in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php:162
+Stack trace:
+#0 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/Google_Client.php(170): Google_OAuth2->setAccessToken(NULL)
+#1 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php(29): Google_Client->setAccessToken(NULL)
+#2 {main}
+  thrown in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php on line 162
+[27-Sep-2018 08:22:42 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php on line 27
+[27-Sep-2018 08:22:42 UTC] PHP Fatal error:  Uncaught Google_AuthException: Could not json decode the token in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php:162
+Stack trace:
+#0 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/Google_Client.php(170): Google_OAuth2->setAccessToken(NULL)
+#1 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php(29): Google_Client->setAccessToken(NULL)
+#2 {main}
+  thrown in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php on line 162
+[27-Sep-2018 08:28:27 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php on line 27
+[27-Sep-2018 08:28:27 UTC] PHP Fatal error:  Uncaught Google_AuthException: Could not json decode the token in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php:162
+Stack trace:
+#0 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/Google_Client.php(170): Google_OAuth2->setAccessToken(NULL)
+#1 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php(29): Google_Client->setAccessToken(NULL)
+#2 {main}
+  thrown in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php on line 162
+[27-Sep-2018 08:28:34 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php on line 27
+[27-Sep-2018 08:28:34 UTC] PHP Fatal error:  Uncaught Google_AuthException: Could not json decode the token in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php:162
+Stack trace:
+#0 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/Google_Client.php(170): Google_OAuth2->setAccessToken(NULL)
+#1 /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/callist.php(29): Google_Client->setAccessToken(NULL)
+#2 {main}
+  thrown in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/google-api-php-client/src/auth/Google_OAuth2.php on line 162
+[27-Sep-2018 18:44:18 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 18:44:26 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 18:45:07 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:05:17 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:05:21 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:05:27 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:05:31 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:12:46 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:12:50 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12
+[27-Sep-2018 19:12:53 UTC] PHP Notice:  Undefined index: bwid in /home/ufoundus/appts.ufound.us/wp-content/plugins/appointment/assets/GoogleCalendar/event.php on line 12

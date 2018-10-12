@@ -1,0 +1,776 @@
+/* Appointment - RTL style front */
+
+#apt.aptrtl{
+	direction: rtl !important;
+}
+#apt.aptrtl .apt-booking-step ul li span.sep .icon-arrow-right:before,
+#apt.aptrtl .calendar-wrapper .calendar-header a.next-date .icon-arrow-right:before{
+	content: "\e605" !important;
+}
+#apt.aptrtl .calendar-wrapper .calendar-header a.previous-date .icon-arrow-left:before{
+	content: "\e606" !important;
+}
+#apt.aptrtl .apt-button .apt-rtl-icon.icon-arrow-left {
+    display: inline !important;
+    padding-left: unset !important;
+    padding-right: 3px !important;
+}
+#apt.aptrtl .icon-arrow-right.apt-ltr-icon{
+	display: none;
+}
+
+
+/* Float left to right */
+#apt.aptrtl,
+#apt.aptrtl .apt-main-wrapper,
+#apt.aptrtl #apt-main,
+#apt.aptrtl .apt-lg-1,
+#apt.aptrtl .apt-lg-10,
+#apt.aptrtl .apt-lg-11,
+#apt.aptrtl .apt-lg-12,
+#apt.aptrtl .apt-lg-2,
+#apt.aptrtl .apt-lg-3,
+#apt.aptrtl .apt-lg-4,
+#apt.aptrtl .apt-lg-5,
+#apt.aptrtl .apt-lg-6,
+#apt.aptrtl .apt-lg-7,
+#apt.aptrtl .apt-lg-8,
+#apt.aptrtl .apt-lg-9,
+#apt.aptrtl .apt-md-1,
+#apt.aptrtl .apt-md-10,
+#apt.aptrtl .apt-md-11,
+#apt.aptrtl .apt-md-12,
+#apt.aptrtl .apt-md-2,
+#apt.aptrtl .apt-md-3,
+#apt.aptrtl .apt-md-4,
+#apt.aptrtl .apt-md-5,
+#apt.aptrtl .apt-md-6,
+#apt.aptrtl .apt-md-7,
+#apt.aptrtl .apt-md-8,
+#apt.aptrtl .apt-md-9,
+#apt.aptrtl .apt-sm-1,
+#apt.aptrtl .apt-sm-10,
+#apt.aptrtl .apt-sm-11,
+#apt.aptrtl .apt-sm-12,
+#apt.aptrtl .apt-sm-2,
+#apt.aptrtl .apt-sm-3,
+#apt.aptrtl .apt-sm-4,
+#apt.aptrtl .apt-sm-5,
+#apt.aptrtl .apt-sm-6,
+#apt.aptrtl .apt-sm-7,
+#apt.aptrtl .apt-sm-8,
+#apt.aptrtl .apt-sm-9,
+#apt.aptrtl .apt-xs-1,
+#apt.aptrtl .apt-xs-10,
+#apt.aptrtl .apt-xs-11,
+#apt.aptrtl .apt-xs-12,
+#apt.aptrtl .apt-xs-2,
+#apt.aptrtl .apt-xs-3,
+#apt.aptrtl .apt-xs-4,
+#apt.aptrtl .apt-xs-5,
+#apt.aptrtl .apt-xs-6,
+#apt.aptrtl .apt-xs-7,
+#apt.aptrtl .apt-xs-8,
+#apt.aptrtl .apt-xs-9,
+#apt.aptrtl .fullwidth,
+#apt.aptrtl .common-inner ,
+#apt.aptrtl input[type="submit"],
+#apt.aptrtl input[type="reset"],
+#apt.aptrtl input[type="button"],
+#apt.aptrtl button,
+#apt.aptrtl .cus-select .common-selection-main,
+#apt.aptrtl .cus-select-staff .common-selection-main,
+#apt.aptrtl .cus-location .common-selection-main,
+#apt.aptrtl .apt-custom-radio ul.apt-radio-list li,
+#apt.aptrtl .apt-custom-radio ul.apt-radio-list li.apt-first-radio,
+#apt.aptrtl .apt-custom-radio ul.apt-radio-list li.apt-second-radio,
+#apt.aptrtl .apt-extra-services-list ul.addon-service-list li .addon-name,
+#apt.aptrtl .apt-service-staff-list ul.staff-list li .staff-name,
+#apt.aptrtl .apt-extra-services-list ul.addon-service-list li .apt-addon-ser .apt-addon-img,
+#apt.aptrtl .apt-addon-count .apt-meth-unit-count .apt-inner-box,
+#apt.aptrtl #apt-calendar-full,
+#apt.aptrtl .calendar-wrapper,
+#apt.aptrtl .dates,
+#apt.aptrtl .calendar-body .apt-show-time,
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container,
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container ul.time-slot-ul,
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container ul li.time-slot,
+#apt.aptrtl .apt-stripe-wrapper,
+#apt.aptrtl .apt-stripe-wrapper .stripe-header,
+#apt.aptrtl .apt-stripe-wrapper .stripe-header .card-header,
+#apt.aptrtl .apt-stripe-card,
+#apt.aptrtl .apt-stripe-card .card-input-container,
+#apt.aptrtl .apt-stripe-card .secure-img,
+#apt.aptrtl .apt-cancel-policy,
+#apt.aptrtl .apt-checkout-content,
+#apt.aptrtl .apt-add-more-btn,
+#apt.aptrtl aside#content-sidebar .content-summary,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .provider-info .provider-title,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style .apt-extra-services-main ul.extra-services-items li,
+#apt.aptrtl aside#content-sidebar .sidebar-box .apt-discount-partial .discount-coupons,
+#apt.aptrtl aside#content-sidebar .sidebar-box .apt-discount-partial .display-coupon-code,
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .display-coupon-code .coupon-value-main,
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .partial-amount-wrapper,
+#apt.aptrtl aside#content-sidebar  .apt-discount-partial .partial-amount-wrapper .partial-amount-message,
+#apt.aptrtl .apt-buttons-wrapper,
+#apt.aptrtl #btn-more-bookings.pull-left,
+#apt.aptrtl .pull-left,
+#apt.aptrtl .apt-second-step .apt-xs-12.pull-left,
+#apt.aptrtl .apt-third-step .apt-xs-12.pull-left,
+#apt.aptrtl .apt-form-common.pull-left,
+#apt.aptrtl .right-booking-details.pull-left,
+#apt.aptrtl .service-details.apt-show .service-details-container h5.service-duration strong,
+#apt.aptrtl .service-details.apt-show .service-details-container h5.service-price strong,
+#apt.aptrtl .apt-addon-count .apt-btn-group .apt-btn-left,
+#apt.aptrtl .apt-main-left.pull-left{
+    float: right !important;
+}
+
+#apt.aptrtl .service-details.apt-show .service-details-container h5.service-duration .apt-service-duration,
+#apt.aptrtl .service-details.apt-show .service-details-container h5.service-price .apt-actual-price{
+	padding-right: 5px;
+	float: right !important;
+}
+
+/* Float right to left */
+#apt.aptrtl .f-right,
+#apt.aptrtl .pull-right,
+#apt.aptrtl .card-sample-img.pull-right,
+#apt.aptrtl .card-cvc-clue.pull-right,
+#apt.aptrtl .secure-img.pull-right,
+#apt.aptrtl .icon-bag.pull-right,
+#apt.aptrtl .apt-delete-booking.pull-right,
+#apt.aptrtl .apt-main-right.pull-right,
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container .apt-slot-legends,
+#apt.aptrtl .apt-card-sample-img .float-right,
+#apt.aptrtl .apt-cart-items-count,
+#apt.aptrtl .apt-addon-count .apt-btn-group .apt-btn-right,
+#apt.aptrtl .apt-booking-step ul li span.sep{
+	float: left !important;
+}
+
+
+
+/* Float position relative left to right */
+
+#apt.aptrtl .today-date a.apt-button{
+	left: unset !important;
+	right: 6% !important;
+}
+#apt.aptrtl #apt-payments .apt-paypal-image{
+	left: unset !important;
+	right: 8px !important;
+}
+#apt.aptrtl .apt-extra-services-main ul.extra-services-items li i.icon-minus.icons{
+	left: unset !important;
+	right: 0 !important;
+}
+#apt.aptrtl #complete-checkout .apt-booking-completed-message{
+	left: unset !important;
+	right: 13% !important;
+}
+/* Float position relative right to left */
+#apt.aptrtl .apt-lg-pull-1 {
+    right: unset !important;
+    left: 8.33333333% !important;
+}
+
+
+
+/* Float position absolute left to right */
+#apt.aptrtl  .block-title i.icons{
+	left: unset !important;
+	right: 2px !important;
+}
+#apt.aptrtl .apt-loader .apt-first{
+	left: unset !important;
+	right: 18px !important;
+}
+#apt.aptrtl .apt-loader .apt-second{
+	left: unset !important;
+	right: 8px !important;
+}
+
+#apt.aptrtl .custom-checkbox.ccb-absolute input[type="checkbox"] + label .check-icon{
+	left: unset !important;
+	right: 0 !important;
+}
+#apt.aptrtl label{
+	left: unset !important;
+	right: 5px !important;
+}
+#apt .apt-extra-services-list ul.addon-service-list li label.apt-addon-ser{
+	right: unset !important;
+}
+#apt.aptrtl label.apt-phone-label{
+	left: unset !important;
+	right: 75px !important;
+}	
+#apt.aptrtl label.apt-phone-label:focus,
+#apt.aptrtl label.apt-phone-label.focus{
+	left: unset !important;
+	right: 5px !important;
+}	
+#apt.aptrtl i.bottom-line{
+	left: unset !important;
+	right: 0 !important;
+}	
+#apt.aptrtl label.apt-phone-label.focus ~ i.bottom-line:before,
+#apt.aptrtl label.focus ~ i.bottom-line:before,
+#apt.aptrtl input.custom-input.focus ~ i.bottom-line:before,
+#apt.aptrtl .custom-input.focus ~ i.bottom-line:before,
+#apt.aptrtl .apt-phone-input.focus + i.bottom-line:before,
+#apt.aptrtl input.custom-input:focus ~ i.bottom-line:before,
+#apt.aptrtl textarea.custom-input:focus ~ i.bottom-line:before,
+#apt.aptrtl .cus-select.focus ~ i.bottom-line:before,
+#apt.aptrtl .cus-location.focus ~ i.bottom-line:before,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list a.apt-delete-booking-box,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .delete span:before{
+	left: unset !important;
+	right: 0 !important;
+}	
+#apt.aptrtl i.bottom-line:before {
+	left: unset !important;
+	right: 50% !important;
+}	
+#apt.aptrtl i.icon-close-custom:before{
+	left: unset !important;
+	right: 0px !important;
+}
+#apt.aptrtl i.icon-close-custom:after{
+	left: unset !important;
+	right: 0px !important;
+}
+#apt.aptrtl .apt-extra-services-list ul.addon-service-list li .apt-addon-ser .addon-price,
+#apt.aptrtl .calendar-wrapper .calendar-header a.previous-date{
+	left: unset !important; 
+	right: 0 !important;
+}
+#apt.aptrtl .apt-stripe-card i.icon-credit-card{
+	left: unset !important; 
+	right: 5px !important;
+}
+#apt.aptrtl .apt-stripe-card i.icon-user{
+	left: unset !important;
+	right: 13px !important;
+}
+#apt.aptrtl .apt-stripe-card i.icon-calendar{
+	left: 5px !important;
+	right: 5px !important;
+}
+#apt.aptrtl .apt-stripe-card i.icon-lock{
+	left: unset !important;
+	right: 7px !important;
+}
+
+
+	
+/* Float position absolute right to left */
+/* custom select */
+#apt.aptrtl .cus-select .common-selection-main .selected-is:after,
+#apt.aptrtl .cus-select-staff .common-selection-main .selected-is:after,
+#apt.aptrtl .cus-location .common-selection-main .selected-is:after,
+#apt.aptrtl .calendar-wrapper .calendar-header a.next-date,
+#apt.aptrtl .calendar-body .dates .apt-week span.apt-available-slots,
+#apt.aptrtl .apt-stripe-card .card-cvc-clue,
+#apt.aptrtl .show-more-toggler:after,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .delete{
+	right: unset !important;
+	left: 0 !important;
+}
+#apt.aptrtl i.bottom-line:after {
+	right: unset !important;
+	left: 50% !important;
+}
+#apt.aptrtl i.icon-close-custom,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .delete span:after{
+	right: unset !important;
+	left: 5px !important;
+}
+#apt.aptrtl .apt-service-staff-list ul.staff-list li .apt-staff span{
+	right: unset !important;
+	left: 5px !important;
+}
+#apt.aptrtl .apt-extra-services-list ul.addon-service-list li input[type="checkbox"]:checked + label span:before,
+#apt.aptrtl .apt-service-staff-list ul.staff-list li input[type="radio"]:checked + label span:before{
+	right: unset !important;
+	left: 11px !important;
+}
+#apt.aptrtl .apt-service-staff-list ul.staff-list li input[type="radio"]:checked + label span:before{
+	right: unset !important;
+	left: 8px !important;
+}
+#apt.aptrtl .apt-stripe-card .card-cvc-clue:before{
+	right: unset !important;
+	left: 21px !important;
+}	
+#apt.aptrtl .apt-stripe-card .card-cvc-clue:after,
+#apt.aptrtl .apt-stripe-card .card-type{
+	right: unset !important;
+	left: 20px !important;
+}
+#apt.aptrtl .apt-stripe-card .card-cvc-clue img.cvc-image-hint{
+	right: unset !important;
+	left: 2px !important;
+}
+#apt.aptrtl .apt-stripe-card .card-cvc-clue{
+	padding: 10px 10px 10px 70px !important;
+}
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .display-coupon-code .coupon-value-main i.icon-close{
+	right: unset !important;
+	left: -9px !important;
+}	
+
+/* text align left to right */
+#apt.aptrtl span.apt-error,
+#apt.aptrtl label.apt-error,
+#apt.aptrtl label.error,
+#apt.aptrtl span.apt-success,
+#apt.aptrtl .apt-stripe-card input.expiry-year,
+#apt.aptrtl aside#content-sidebar  .apt-discount-partial .partial-amount-wrapper .partial-amount-message{
+	text-align: right !important;
+}
+
+
+
+
+/* text align right to left */
+#apt.aptrtl .text-right,
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style .apt-right-text.text-right,
+#apt.aptrtl .apt-button-container.text-right{
+	text-align:left !important;
+}
+
+
+
+/* Padding left to right */
+#apt.aptrtl .npl{
+	padding-left: inherit !important;
+	padding-right: 0 !important;
+}
+#apt.aptrtl .pl-20{
+	padding-left: inherit !important;
+	padding-right: 20px !important;
+}
+#apt.aptrtl .pl-5{
+	padding-left: inherit !important;
+	padding-right: 5px !important;
+}
+.intl-tel-input input,
+.intl-tel-input input[type="text"],
+.intl-tel-input input[type="tel"]{
+	padding-left: inherit !important;
+	padding-right: 45px !important;
+}
+#apt.aptrtl .cus-select .common-selection-main li.service-category,
+#apt.aptrtl .cus-select-staff .common-selection-main li.service-category,
+#apt.aptrtl .cus-location .common-selection-main li.service-category{
+	padding-left: inherit !important;
+	padding-right: 15px !important;
+}	
+#apt.aptrtl .cus-select .common-selection-main .data-list{
+	padding-left: inherit !important;
+	padding-right: 30px !important;
+}		
+#apt.aptrtl .custom-checkbox-list .custom-checkbox label{
+	padding-left: inherit !important;
+	padding-right: 22px !important;
+}	
+#apt.aptrtl .service-details.apt-show .service-details-container .apt-service-desc .apt-service-desc-p{
+	padding-left: unset !important;
+	padding-right: 10px !important;
+	direction: rtl !important;
+}
+#apt.aptrtl .today-date .apt-selected-date-view .custom-check{
+	padding-left: inherit !important;
+	padding-right: 20px !important;
+}
+#apt.aptrtl .apt-stripe-card .card-input-container label.custom{
+	padding-left: inherit !important;
+	padding-right: 30px !important;
+}	
+#apt.aptrtl .apt-stripe-card .expiry-month-year{
+	padding-left: inherit !important;
+	padding-right: 10px !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .price{
+	padding-left:inherit !important;
+	padding-right:7px !important;
+}
+#apt.aptrtl aside#content-sidebar .apt-total-amount .common-amount-price.discount-price{
+	padding-left: inherit !important;
+	padding-right: 3px !important;
+}
+
+/* Padding right to left */
+#apt.aptrtl .npr{
+	padding-right: inherit !important;
+	padding-left: 0 !important;
+}
+#apt.aptrtl .pr-5{
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#apt.aptrtl .apt-button i.icon-arrow-left{
+	padding-right: inherit !important;
+	padding-left: 3px !important;
+}
+#apt.aptrtl .today-date .apt-selected-date-view span.apt-date-selected{
+	padding-right: unset !important;
+	padding-left: 15px !important;
+}
+#apt.aptrtl .today-date .apt-selected-date-view span.apt-date-selected:before,
+#apt.aptrtl .today-date .apt-selected-date-view span.apt-time-selected:before{
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#apt.aptrtl .show-more-toggler{
+	padding-right: inherit !important;
+	padding-left: 23px !important;
+}
+#apt.aptrtl .apt-extra-services-main ul.extra-services-items li.apt-es.delete-toggle{
+	-webkit-transform: translate3d(60px, 0, 0) !important;
+	-moz-transform: translate3d(60px, 0, 0) !important;
+	-o-transform: translate3d(60px, 0, 0) !important;
+	-ms-transform: translate3d(60px, 0, 0) !important;
+	transform: translate3d(60px, 0, 0) !important;
+	padding-right: inherit !important;
+	padding-left: 15px !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .price span.currency-symbol{
+	padding-right: inherit !important;
+	padding-left: 1px !important;
+}
+
+
+
+
+/* Margin left to right */
+#apt.aptrtl .nml{
+	margin-left: inherit !important;
+	margin-right: 0 !important;
+}
+#apt.aptrtl .apt-list-inline > li {
+	margin-left: inherit;
+	margin-right: 0 !important;
+}
+#apt.aptrtl .custom-checkbox-list .custom-checkbox{
+	margin-left: inherit !important;
+	margin-right: 0 !important;
+}
+
+
+
+
+/* Margin right to left */
+#apt.aptrtl .nmr{
+	margin-right: inherit !important;
+	margin-left: 0 !important;
+}
+#apt.aptrtl .custom-checkbox input[type="checkbox"] + label .check-icon{
+	margin-right: inherit !important;
+	margin-left: 10px !important;
+}
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container .apt-slot-legends .apt-slot-legends-box,
+#apt.aptrtl .apt-custom-radio ul.apt-radio-list label span{
+	margin-right: inherit !important;
+	margin-left: 3px !important;
+}
+
+
+/* Extra */
+
+#apt.aptrtl  .block-title{
+	padding-left: inherit !important;
+	padding-right: 23px !important;
+}
+#apt.aptrtl .apt-custom-radio  ul.apt-radio-list{
+	float: right !important;
+	padding: 5px 5px 0px 0px !important;
+}	
+
+#apt.aptrtl aside#content-sidebar:before,
+#apt.aptrtl section.apt-main-left:after{
+	border-left: unset !important;
+	border-right: 1px solid #e4ebf2;
+	left: unset !important;
+	right: -1px !important;
+}
+#apt.aptrtl section.apt-main-left:after{
+	right: unset !important;
+	left: 0 !important;
+}
+#apt.aptrtl .apt-main-left.active-left-xs12 .today-date .apt-selected-date-view,
+#apt.aptrtl .apt-main-left.active-left-res75.apt-asr .today-date .apt-selected-date-view{
+	right: unset !important;
+	left: 0 !important;
+}
+#apt.aptrtl label.apt-relative{
+	left: inherit !important;
+	right: unset !important;
+	float: right !important;
+}	
+
+#apt.aptrtl .service-details.apt-show .service-details-container .apt-desc-header,
+#apt.aptrtl.aptrtl .service-details.apt-show .service-details-container .apt-service-desc{
+	padding: 5px 13px 5px 20px !important;
+	direction: ltr !important;
+}	
+#apt.aptrtl .service-details.apt-show .service-details-container .apt-service-desc .apt-service-image-main{
+	padding: 0 0 4px 8px !important;
+	float: right !important;
+}	
+#apt.aptrtl .calendar-body .apt-day,
+#apt.aptrtl .calendar-body .apt-week {
+	float: right !important;	
+	border-right: unset !important;
+	border-left: thin solid #e5e5e5 !important;
+}
+#apt.aptrtl .calendar-body .apt-day.apt-last-day,
+#apt.aptrtl .calendar-body .apt-week:nth-child(7){
+	border-right: unset !important;
+	border-left: 0px !important;
+}
+#apt.aptrtl .today-date {		
+	text-align: right !important;
+	float: right !important;
+}
+#apt.aptrtl .calendar-body .apt-show-time .time-slot-container .apt-slot-legends ul.apt-legends-ul li {
+	float: right !important;
+	margin: 0px 0px 0px 15px !important;
+}	
+#apt.aptrtl .today-date .apt-selected-date-view{
+	float: left !important;
+	margin: 15px 0px 0px 10px !important;
+}	
+#apt.aptrtl .today-date .apt-selected-date-view .custom-check:before{
+	left: 0px unset !important;
+	right: 0px !important;
+}	
+#apt.aptrtl .apt-stripe-card input.input-card{
+	padding: 5px 30px 5px 40px !important;
+}
+#apt.aptrtl .apt-stripe-card input.name-on-card{
+	padding: 5px 40px 5px 10px !important;
+}
+#apt.aptrtl .apt-stripe-card input.expiry-month{
+	padding: 10px 30px 10px 10px !important;
+	text-align: right !important;
+}
+#apt.aptrtl .apt-stripe-card .expiry-month-year.expiry_year{
+	margin-left: inherit !important;
+	margin-right: 20px !important;
+	float: left !important;
+}
+#apt.aptrtl .apt-stripe-card .expiry-month-year em.card-mon-year-separator {
+	margin: 0 15px 0 10px !important;
+}
+#apt.aptrtl .apt-stripe-card .expiry-month-year em.card-mon-year-separator:after{
+	margin: 0 5px 0 0 !important;
+}
+#apt.aptrtl .apt-stripe-card input.cvc-code{
+	padding: 10px 30px 10px 10px !important;
+	text-align: right !important;
+}
+#apt.aptrtl .apt-cancel-policy p {
+	float: right !important;
+	margin-right: inherit !important;
+	margin-left: 5px !important;
+}
+#apt.aptrtl ul.bullet-more {
+	padding-left: 0.9375em !important;
+	padding-right: 0 !important;
+	margin: 0px 0.3125em 0px 0px !important;
+}	
+#apt.aptrtl .apt-cart-items-count i span.apt_badge{
+	right: unset !important;
+	left: -10px !important;
+	float: left !important;	
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list.delete-list .delete span:before {
+	border-right: inherit !important;
+	border-left: unset !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list{
+	padding: 20px 5px 10px 10px !important;
+}	
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style{
+	padding: 0 25px 5px 0 !important;
+}
+#apt.aptrtl .apt-extra-services-main ul.extra-services-items li a.apt-delete-confirm{
+	float: left !important;
+	right: unset !important;
+	left: -70px !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style.last-item{
+	padding: 0 10px 0 0 !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style i.icons {
+	padding: 2px 0px 3px 5px !important;
+	left: unset !important;
+	right: 5px !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style i.icons.icon-minus{
+	left: unset !important;
+	right: -20px !important;
+}
+#apt.aptrtl aside#content-sidebar .sidebar-box .apt-total-amount{
+	padding-left: inherit !important;
+	padding-right: 10px !important;
+	float: right !important;
+}	
+#apt.aptrtl aside#content-sidebar .sidebar-box .apt-total-amount .common-amount-text,
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .common-amount-text{
+	float: right !important;
+	text-align: right !important;
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#apt.aptrtl aside#content-sidebar .apt-total-amount .common-amount-price,
+#apt.aptrtl aside#content-sidebar  .apt-discount-partial .common-amount-price{
+	float: left !important;
+	padding-left: inherit !important;
+	padding-right: 8px !important;
+	text-align: left !important;
+}
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .discount-coupons a.apply-coupon{
+	float: left !important;
+	right: unset !important;	
+	left: 0 !important;	
+}
+#apt.aptrtl aside#content-sidebar .apt-discount-partial .discount-coupons .coupon-input input{
+	padding: 10px 5px 10px 70px !important;
+}
+.intl-tel-input .selected-flag{
+	padding: 0 8px 0 0 0 ;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+	right: unset !important;	
+	left: 4px !important;
+}	
+#apt.aptrtl .apt-custom-radio ul.apt-radio-list li label i,.icon-credit-card.icons{
+	position: absolute;
+	top: 8px;
+	margin-right: 5px;
+}
+#apt.aptrtl #btn-more-bookings .icon-arrow-left.icons{
+	float: right !important;
+	-webkit-transform: rotate(180deg) !important;
+	-moz-transform: rotate(180deg) !important;
+	-ms-transform: rotate(180deg) !important;
+	transform: rotate(180deg) !important;
+	top: 5px;
+	position: relative;
+}
+#apt.aptrtl .apt-button{
+	margin: 10px 0px 10px 10px !important;
+}
+#apt.aptrtl.apt-client .client_logout {
+	float: left !important;
+}
+#apt .calendar-body .apt-show-time .time-slot-container ul.time-slot-ul{
+	direction: ltr;
+}
+#apt .calendar-body .apt-show-time .time-slot-container ul li.time-slot{
+	direction: rtl;
+}
+
+
+/* Front RTL Responsive */
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/**********
+iPad 3
+**********/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 767px) {
+#apt.aptrtl .today-date .apt-selected-date-view {
+	float: none !important;
+}
+#apt.aptrtl .apt-lg-pull-1,
+#apt.aptrtl .today-date a.apt-button {
+    right: unset !important;
+    left: unset !important;
+}
+
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 767px) and (orientation: landscape){
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){ 
+  
+  }
+  
+  
+ /* Portrait */
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px)
+	and (orientation: portrait) { 
+
+
+
+	}
+
+/* Landscape */
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px)
+	and (orientation: landscape) {
+
+
+	}  
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+}
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 319px) {
+
+}
+
+
+
+
+
+
